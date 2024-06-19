@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/sunbeam/Desktop/Exam_Practice/ELDD/Demo21_mutex/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+.phony	Makefile	/^.phony : clean$/;"	t
+MAX	pchar.c	/^#define MAX /;"	d	file:
+buf	pchar.c	/^    struct kfifo buf;$/;"	m	struct:pchar_device	typeref:struct:kfifo	file:
+cdev	pchar.c	/^    struct cdev cdev;$/;"	m	struct:pchar_device	typeref:struct:cdev	file:
+clean	Makefile	/^clean:$/;"	t
+devcnt	pchar.c	/^static int devcnt = 3;$/;"	v	typeref:typename:int	file:
+devices	pchar.c	/^struct pchar_device *devices;$/;"	v	typeref:struct:pchar_device *
+devno	pchar.c	/^    dev_t devno;$/;"	m	struct:pchar_device	typeref:typename:dev_t	file:
+major	pchar.c	/^static int major;$/;"	v	typeref:typename:int	file:
+modules	Makefile	/^modules:$/;"	t
+obj-m	Makefile	/^obj-m = pchar.o$/;"	m
+pchar_close	pchar.c	/^static int pchar_close(struct inode *pinode, struct file *pfile) {$/;"	f	typeref:typename:int	file:
+pchar_device	pchar.c	/^struct pchar_device {$/;"	s	file:
+pchar_exit	pchar.c	/^static __exit void pchar_exit(void) {$/;"	f	typeref:typename:__exit void	file:
+pchar_fops	pchar.c	/^static struct file_operations pchar_fops = {$/;"	v	typeref:struct:file_operations	file:
+pchar_init	pchar.c	/^static __init int pchar_init(void) {$/;"	f	typeref:typename:__init int	file:
+pchar_open	pchar.c	/^static int pchar_open(struct inode *pinode, struct file *pfile) {$/;"	f	typeref:typename:int	file:
+pchar_read	pchar.c	/^static ssize_t pchar_read(struct file *pfile, char *ubuf, size_t size, loff_t *poffset) {$/;"	f	typeref:typename:ssize_t	file:
+pchar_write	pchar.c	/^static ssize_t pchar_write(struct file *pfile, const char *ubuf, size_t size, loff_t *poffset) {$/;"	f	typeref:typename:ssize_t	file:
+pclass	pchar.c	/^static struct class *pclass;$/;"	v	typeref:struct:class *	file:

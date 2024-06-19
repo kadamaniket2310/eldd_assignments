@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/sunbeam/Desktop/Exam_Practice/ELDD/Assignment/Assignment06_keyboard_disabling/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+.phony	Makefile	/^.phony : clean$/;"	t
+clean	Makefile	/^clean:$/;"	t
+count	keyboard_disable.c	/^int count = 0;$/;"	v	typeref:typename:int
+desd_exit	keyboard_disable.c	/^static __exit void desd_exit(void)$/;"	f	typeref:typename:__exit void	file:
+desd_init	keyboard_disable.c	/^static __init int desd_init(void)$/;"	f	typeref:typename:__init int	file:
+modules	Makefile	/^modules:$/;"	t
+mytimer	keyboard_disable.c	/^struct timer_list mytimer;$/;"	v	typeref:struct:timer_list
+mytimer_function	keyboard_disable.c	/^void mytimer_function(struct timer_list *ptimer)$/;"	f	typeref:typename:void
+obj-m	Makefile	/^obj-m = keyboard_disable.o$/;"	m
+ticks	keyboard_disable.c	/^int ticks;$/;"	v	typeref:typename:int

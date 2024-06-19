@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/sunbeam/Desktop/Exam_Practice/ELDD/Assignment/Assignment_02_kfifo_resize/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+.phony	Makefile	/^.phony : clean$/;"	t
+FIFO_CLEAR	pchar_ioctl.h	/^#define FIFO_CLEAR /;"	d
+FIFO_INFO	pchar_ioctl.h	/^#define FIFO_INFO /;"	d
+FIFO_RESIZE	pchar_ioctl.h	/^#define FIFO_RESIZE /;"	d
+MAX	pchar.c	/^#define MAX /;"	d	file:
+__PCHAR_IOCTL_H	pchar_ioctl.h	/^#define __PCHAR_IOCTL_H$/;"	d
+__anonf2fffc830108	pchar_ioctl.h	/^typedef struct {$/;"	s
+avail	pchar_ioctl.h	/^    short avail; \/\/ free size$/;"	m	struct:__anonf2fffc830108	typeref:typename:short
+buf	pchar.c	/^static struct kfifo buf;$/;"	v	typeref:struct:kfifo	file:
+cdev	pchar.c	/^static struct cdev cdev;$/;"	v	typeref:struct:cdev	file:
+clean	Makefile	/^clean:$/;"	t
+devno	pchar.c	/^static dev_t devno;$/;"	v	typeref:typename:dev_t	file:
+info_t	pchar_ioctl.h	/^}info_t;$/;"	t	typeref:struct:__anonf2fffc830108
+len	pchar_ioctl.h	/^    short len; \/\/ filled size$/;"	m	struct:__anonf2fffc830108	typeref:typename:short
+main	pchar_test.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+major	pchar.c	/^static int major;$/;"	v	typeref:typename:int	file:
+modules	Makefile	/^modules:$/;"	t
+obj-m	Makefile	/^obj-m = pchar.o$/;"	m
+pchar_close	pchar.c	/^static int pchar_close(struct inode *pinode, struct file *pfile) {$/;"	f	typeref:typename:int	file:
+pchar_exit	pchar.c	/^static __exit void pchar_exit(void) {$/;"	f	typeref:typename:__exit void	file:
+pchar_fops	pchar.c	/^static struct file_operations pchar_fops = {$/;"	v	typeref:struct:file_operations	file:
+pchar_init	pchar.c	/^static __init int pchar_init(void) {$/;"	f	typeref:typename:__init int	file:
+pchar_ioctl	pchar.c	/^static long pchar_ioctl(struct file *pfile, unsigned int cmd, unsigned long param) {$/;"	f	typeref:typename:long	file:
+pchar_open	pchar.c	/^static int pchar_open(struct inode *pinode, struct file *pfile) {$/;"	f	typeref:typename:int	file:
+pchar_read	pchar.c	/^static ssize_t pchar_read(struct file *pfile, char *ubuf, size_t size, loff_t *poffset) {$/;"	f	typeref:typename:ssize_t	file:
+pchar_write	pchar.c	/^static ssize_t pchar_write(struct file *pfile, const char *ubuf, size_t size, loff_t *poffset) {$/;"	f	typeref:typename:ssize_t	file:
+pclass	pchar.c	/^static struct class *pclass;$/;"	v	typeref:struct:class *	file:
+size	pchar_ioctl.h	/^    short size; \/\/ total size of fifo$/;"	m	struct:__anonf2fffc830108	typeref:typename:short

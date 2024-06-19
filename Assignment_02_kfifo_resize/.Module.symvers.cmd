@@ -1,0 +1,1 @@
+cmd_/home/sunbeam/Desktop/Exam_Practice/ELDD/Assignment/Assignment_02_kfifo_resize/Module.symvers :=  sed 's/ko$$/o/'  /home/sunbeam/Desktop/Exam_Practice/ELDD/Assignment/Assignment_02_kfifo_resize/modules.order | scripts/mod/modpost -m -a    -o /home/sunbeam/Desktop/Exam_Practice/ELDD/Assignment/Assignment_02_kfifo_resize/Module.symvers -e -i Module.symvers -T - 

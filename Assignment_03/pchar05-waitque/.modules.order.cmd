@@ -1,0 +1,1 @@
+cmd_/home/sunbeam/Desktop/Exam_Practice/ELDD/Assignment/Assignment_03/pchar05-waitque/modules.order := {   echo /home/sunbeam/Desktop/Exam_Practice/ELDD/Assignment/Assignment_03/pchar05-waitque/pchar.ko; :; } > /home/sunbeam/Desktop/Exam_Practice/ELDD/Assignment/Assignment_03/pchar05-waitque/modules.order
